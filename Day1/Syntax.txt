@@ -1,0 +1,16 @@
+[섹션 01]
+http://docs.oracle.com/javase/tutorial/
+
+[섹션 02] classpath 설정하기
+
+윈키 + Break 
+> 고급 시스템 설정
+> 환경변수 클릭
+> 새로 만들기 클릭
+> JAVA_HOME
+> jdk 까지 경로 
+> path 에 %JAVA_HOME%\bin; 추가
+
+[섹션 03] Getting Start !!
+main method = Entry Point (진입점) 이다.
+

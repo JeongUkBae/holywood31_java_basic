@@ -16,12 +16,13 @@ public class ScoreArray {
 			String flag = scanner.next();
 			System.out.println("이터레이터: "+iter);
 			System.out.println("카운터: "+count);
-			if(!flag.equals("0") && iter != (count-1)) {
+			if(!flag.equals("0") && iter != count) {
 				names[iter] = scanner.next();
 				scores[iter] = scanner.nextInt();
 				iter++;
 			} else {
 				System.out.println("종료...");
+				
 				for(int i=0; i<names.length; i++) {
 					System.out.println(names[i]+";"+scores[i]);
 				}

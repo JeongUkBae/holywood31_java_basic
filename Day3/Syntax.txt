@@ -1,0 +1,23 @@
+[섹션 01] 자바 기초
+
+https://docs.oracle.com/javase/tutorial/java/nutsandbolts/index.html
+
+Variables 변수
+Operator 연산자
+Expression 표현식
+Statements 구문
+Block 블록
+
+[섹션 02] 연산자
+'=' Assignment(어싸인먼트) = 할당연산자
+
++,-,*,/,% aritmetic(아리스매틱) = 산술연산자
+
+.equals(""), ==, <=, < 
+↑ Conditional = 비교연산자 -> 반드시 boolean 이 리턴값이다.
+
+
+[섹션 03] Control Flow Statements
+제어 (흐름) 문
+Branch(CF) : If 
+

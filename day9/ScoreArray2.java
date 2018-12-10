@@ -8,27 +8,32 @@ public class ScoreArray2 {
 		
 		
 		while (true) {
-			System.out.println("학생수 몇명");
-			int count = 0;
-			System.out.println("0. 종료 / 1. 학생이름 점수 입력");
-			int select = scanner.nextInt();
-			switch (select) {
-			case 0 : System.out.println("종료...");
-				return;
+			System.out.println("0. 종료 / 1. 실행");
+			String select = scanner.next();
+			
+		
+				switch (select) {
 				
-			case 1 : System.out.println("이름, 점수 입력");
-					 String[] names = new String[count];
+				case "0" : System.out.println("종료...");
+					return;
+				
+				case "1" : 
+					System.out.println("학생수 몇명");
+					int count = scanner.nextInt();
+					System.out.println("이름, 점수 입력");	 
+					String[] names = new String[count];
 					 int[] scores = new int[count];
 					 String namesresult = "";
 					 
-					 for(int i=0; i<count.length; i++) {
-						 if(i<(count.length-1)) { 
-							 [i] += i+","; 
+					 for(int i=0; i<count; i++) {
+						 if(i<(count-1)) { 
+							 names[i] += i+","; 
 						 }else  {
-						 names[i] += i+"";
+							 names[i] += i+"";
 					 	 }
+						 System.out.println(names);
 					 }
-					 System.out.println(names);
+					
 					 
 					 break;
 					 

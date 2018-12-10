@@ -20,8 +20,5 @@ public class ForDemo {
 		}
 		System.out.println(b+a);	
 		
-		
-		
-	}
-	
-}
+	}//에어리어
+}//필드
